@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="hardware.xsd">
+
+    <equipo id="TEC_01">
+        <categoria>Usuario Técnico</categoria>
+        <modelo>Estación de Trabajo Eficafix Pro</modelo>
+        <especificaciones>
+            <cpu>Intel Core i7-13700 (16 núcleos)</cpu>
+            <ram>32 GB DDR5 5200MHz</ram>
+            <almacenamiento tipo="SSD">Samsung 980 Pro 1TB NVMe M.2</almacenamiento>
+            <otros>NVIDIA RTX 3060 12GB</otros>
+        </especificaciones>
+        <estado>Compra Propuesta</estado>
+    </equipo>
+
+    <equipo id="SRV_PROD">
+        <categoria>Servidor</categoria>
+        <modelo>Windows Server Central</modelo>
+        <especificaciones>
+            <cpu>Intel Xeon E-2336 (6 núcleos)</cpu>
+            <ram>64 GB DDR4 ECC</ram>
+            <almacenamiento tipo="SSD">2x 480GB (RAID 1)</almacenamiento>
+            <almacenamiento tipo="HDD">2x 4TB SATA</almacenamiento>
+            <otros>Fuente Redundante 500W</otros>
+        </especificaciones>
+        <estado>Operativo</estado>
+    </equipo>
+
+    <equipo id="NET_FW">
+        <categoria>Red Crítica</categoria>
+        <modelo>Cisco ASA 5506-X</modelo>
+        <especificaciones>
+            <cpu>Arquitectura Multicore ASA</cpu>
+            <ram>4 GB</ram>
+            <almacenamiento tipo="Flash">8 GB</almacenamiento>
+            <otros>Firewall Perimetral con FirePOWER</otros>
+        </especificaciones>
+        <estado>En Rack</estado>
+    </equipo>
+
+</inventario>

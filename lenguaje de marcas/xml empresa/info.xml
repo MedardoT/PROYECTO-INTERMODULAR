@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root-element xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="info.xsd">
+    <empresa>
+        <nombre>Eficafix S.L.</nombre>
+        <servicios>
+            <servicio id="servicio_01">
+                <titulo>Mantenimiento informático integral</titulo>
+                <detalle>
+                    Nos encargamos de que tus sistemas estén siempre operativos para que tú puedas centrarte en tu negocio, no en los problemas técnicos.
+
+                    Soporte Técnico: Atención remota y visitas presenciales en Madrid.
+                    Preventivo: Revisiones periódicas para anticipar averías antes de que ocurran.
+                    Tarifa Plana: Coste mensual fijo y transparente, sin sorpresas en la factura.
+                    Outsourcing IT: Actuamos como tu departamento informático externo completo.
+                </detalle>
+            </servicio>
+            <servicio id="servicio_02">
+                <titulo>
+                    Redes e Infraestructura
+                </titulo>
+                <detalle>
+                    Diseñamos y desplegamos el esqueleto digital de tu empresa: redes estables, rápidas y escalables según tus necesidades.
+
+                    Instalación: Cableado estructurado y WiFi de grado empresarial.
+                    Servidores: Configuración de servidores físicos y virtualización.
+                    Almacenamiento: Sistemas NAS/SAN de alta disponibilidad y seguridad.
+                    VPN y conectividad: Acceso remoto seguro para equipos en teletrabajo.
+                </detalle>
+            </servicio>
+             <servicio id="servicio_03">
+                <titulo>
+                    Ciberseguridad Avanzada
+                </titulo>
+                <detalle>
+                    Protegemos tu empresa frente a ransomware, ataques externos e incidentes internos con un enfoque proactivo y en capas.
+
+                    Auditorías: Análisis y detección de vulnerabilidades en tu infraestructura.
+                    Firewalls: Seguridad perimetral y monitorización continua del tráfico.
+                    Backups: Copias de seguridad automatizadas locales y en la nube con cifrado.
+                    Concienciación: Formación al personal para reducir el riesgo humano.
+                </detalle>
+            </servicio>
+            <servicio id="servicio_04">
+                <titulo>
+                    Soluciones Cloud y Digitalización
+                </titulo>
+                <detalle>
+                    Te ayudamos a tener toda tu infraestructura a tu disposicion en cualquier lugar de forma eficiente y segura.
+
+                    Migración a la Nube: Traslado de correos y documentos a Microsoft 365 o Google Workspace.
+                    Virtualización de Escritorios: Accede a tu ordenador de la oficina desde casa de forma segura.
+                    Gestión de Licencias: Control y renovación de software corporativo (Office, Adobe, CRMs).
+                </detalle>
+            </servicio>
+            <servicio id="servicio_05">
+                <titulo>
+                    Consultoría y Proyectos Especiales
+                </titulo>
+                <detalle>
+                    Te brindamos apoyo estratégico para crecer o renovar tu tecnología
+
+                    Consultoría Tecnológica: Asesoramiento para invertir en el hardware o software adecuado.
+                    Adecuación al RGPD: Servicios para garantizar el cumplimiento de la normativa europea.
+                    Inventario de Activos: Registro actualizado de todo el parque informático de la empresa.
+                </detalle>
+            </servicio>
+            <servicio id="servicio_06">
+                <titulo>
+                    Comunicaciones y Telefonía IP
+                </titulo>
+                <detalle>
+                    Unificamos tus canales de comunicación para que tu equipo esté siempre conectado, reduciendo costes y mejorando la atención al cliente.
+
+                    Voz IP (VoIP): Centralitas virtuales avanzadas con movilidad total y extensiones en el móvil.
+                    Telefonía en la Nube: Integración de llamadas directamente en Microsoft Teams o herramientas de gestión.
+                    Sistemas de Videoconferencia: Equipamiento de salas de reuniones para presentaciones híbridas profesionales.
+                    Ahorro de Costes: Auditoría de líneas actuales para optimizar el gasto mensual en telecomunicaciones.
+                </detalle>
+            </servicio>
+        </servicios>
+        <empleados>
+            <empleado>
+                <nombre>
+                    Ismael Medardo Torres
+                </nombre>
+                <funcion>
+                    Tecnico en ciberseguridad y en infraestructura de red
+                </funcion>
+            </empleado>
+            <empleado>
+                <nombre>
+                    Noa Maximilian Tóth-Égetö
+                </nombre>
+                <funcion>
+                    Tecnico en redes
+                </funcion>
+            </empleado>
+        </empleados>
+    </empresa>
+</root-element>
